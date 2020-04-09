@@ -22,6 +22,10 @@ AllCops:
 Layout/DotPosition:
   EnforcedStyle: trailing
 
+Layout/LineLength:
+  Max: 80
+  IgnoreCopDirectives: true
+
 Lint/AmbiguousBlockAssociation:
   Exclude:
     - spec/**/*
@@ -48,10 +52,6 @@ Metrics/ClassLength:
 
 Metrics/CyclomaticComplexity:
   Enabled: false
-
-Metrics/LineLength:
-  Max: 80
-  IgnoreCopDirectives: true
 
 Metrics/MethodLength:
   Enabled: false
@@ -141,3 +141,24 @@ RSpec/ExampleLength:
 
 RSpec/MultipleExpectations:
   Enabled: false
+
+################################################################################
+# Because of rubocop's new versioning scheme, you get a warning if you don't
+# have config set for specific cops until the next major version comes out. The
+# following rules all mirror the default rubocop configuration, but they're here
+# just to silence the warnings. They can be removed when 1.0 comes out.
+
+Lint/RaiseException:
+  Enabled: true
+
+Lint/StructNewOverride:
+  Enabled: true
+
+Style/HashEachMethods:
+  Enabled: true
+
+Style/HashTransformKeys:
+  Enabled: true
+
+Style/HashTransformValues:
+  Enabled: true
