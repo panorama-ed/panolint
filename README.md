@@ -1,5 +1,8 @@
 # Panolint
 
+[![Build Status](https://github.com/panorama-ed/panolint/workflows/Main/badge.svg)](https://github.com/panorama-ed/panolint/actions)
+[![Gem Version](https://img.shields.io/gem/v/panolint.svg)](https://github.com/panorama-ed/panolint)
+
 A small gem containing rules for linting code at Panorama Education.
 
 ## Installation
