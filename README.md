@@ -20,7 +20,12 @@ Or install it yourself as:
 
 ## Usage
 
+You can use this in your project's `.rubocop.yml` with the following at the top:
 
+```
+inherit_gem:
+  panolint: .rubocop.yml
+```
 
 ## Development
 
