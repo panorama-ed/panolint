@@ -19,5 +19,5 @@ jobs:
           ${{ runner.os }}-gems-
     - run: bundle config path vendor/bundle
     - run: bundle install --jobs 4 --retry 3
-    - run: bundle exec rubocop
+    - run: bundle exec rubocop --config panolint.yml
     - run: bundle exec rspec

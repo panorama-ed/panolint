@@ -1,0 +1,11 @@
+# This is a dependabot configuration file. When this file is seen on github, a
+# dependabot configuration is created for the project. We can use this to
+# control various aspects of the automated dependency checking, such as the
+# frequency and the target_branch.
+#
+# Reference: https://dependabot.com/docs/config-file/
+version: 1
+update_configs:
+  - package_manager: "ruby:bundler"
+    directory: "/"
+    update_schedule: "weekly"

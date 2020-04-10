@@ -65,6 +65,10 @@ Metrics/PerceivedComplexity:
 Naming/BinaryOperatorParameterName:
   Enabled: false
 
+Naming/FileName:
+  Exclude:
+    - .overcommit/Gemfile
+
 RSpec/ExpectChange:
   Enabled: false
 

@@ -27,8 +27,10 @@ You can use this in your project's `.rubocop.yml` with the following at the top:
 
 ```
 inherit_gem:
-  panolint: .rubocop.yml
+  panolint: panolint.yml
 ```
+
+Note that it for this gem in particular in needs to not be a `.rubocop.yml` file because of rubocop's [path relativity](https://github.com/rubocop-hq/rubocop/blob/master/manual/configuration.md#path-relativity).
 
 ## Development
 
