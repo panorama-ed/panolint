@@ -23,11 +23,21 @@ Or install it yourself as:
 
 ## Usage
 
-You can use this in your project's `.rubocop.yml` with the following at the top:
+### `brakeman`
+
+You can use `panolint`'s `brakeman` configuration in your project by pointing the `brakeman` run at the configuration file in this repo:
+
+```
+$ bundle exec brakeman -c "$(bundle show brakeman)/brakeman.yml"
+```
+
+### `rubocop`
+
+You can use `panolint`'s rubocop configuration in your project with the following addition to the top of your project's `.rubocop.yml`:
 
 ```
 inherit_gem:
-  panolint: panolint.yml
+  panolint: rubocop.yml
 ```
 
 Note that it for this gem in particular in needs to not be a `.rubocop.yml` file because of rubocop's [path relativity](https://github.com/rubocop-hq/rubocop/blob/master/manual/configuration.md#path-relativity).
