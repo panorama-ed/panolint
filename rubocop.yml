@@ -152,6 +152,9 @@ RSpec/MultipleExpectations:
 # following rules all mirror the default rubocop configuration, but they're here
 # just to silence the warnings. They can be removed when 1.0 comes out.
 
+Lint/DeprecatedOpenSSLConstant:
+  Enabled: true
+
 Layout/EmptyLinesAroundAttributeAccessor:
   Enabled: true
 
