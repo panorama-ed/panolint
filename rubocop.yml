@@ -18,6 +18,7 @@ AllCops:
     - !ruby/regexp /vendor\/(?!panoramaed).*$/
     - "db/schema.rb"
     - "db/migrate/**/*"
+  NewCops: enable
 
 Layout/DotPosition:
   EnforcedStyle: trailing
