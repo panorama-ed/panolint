@@ -34,6 +34,9 @@ Lint/AmbiguousBlockAssociation:
 Lint/Debugger:
   Severity: error
 
+Lint/DuplicateElsifCondition:
+  Enabled: true
+
 Lint/MixedRegexpCaptureTypes:
   Enabled: true
 
@@ -95,6 +98,12 @@ Style/Alias:
   Enabled: true
   EnforcedStyle: prefer_alias_method
 
+Style/ArrayCoercion:
+  Enabled: true
+
+Style/CaseLikeIf:
+  Enabled: true
+
 Style/Documentation:
   Enabled: false
 
@@ -110,12 +119,18 @@ Style/FormatString:
 Style/GuardClause:
   Enabled: false
 
+Style/HashAsLastArrayItem:
+  Enabled: true
+
 Style/MixinUsage:
   Exclude:
     - bin/**/*
 
 Style/MultilineBlockChain:
   Enabled: false
+
+Style/RedundantFileExtensionInRequire:
+  Enabled: true
 
 Style/RedundantRegexpCharacterClass:
   Enabled: true
