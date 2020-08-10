@@ -20,6 +20,9 @@ AllCops:
     - "db/migrate/**/*"
   NewCops: enable
 
+Gemspec/RequiredRubyVersion:
+  Enabled: false
+
 Layout/DotPosition:
   EnforcedStyle: trailing
 
