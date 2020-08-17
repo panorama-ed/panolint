@@ -91,6 +91,9 @@ RSpec/LetSetup:
 RSpec/MessageSpies:
   EnforcedStyle: receive
 
+RSpec/MultipleMemoizedHelpers:
+  Enabled: false
+
 RSpec/NamedSubject:
   Enabled: false
 
