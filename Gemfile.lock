@@ -19,7 +19,7 @@ GEM
       tzinfo (~> 2.0)
       zeitwerk (~> 2.3)
     ast (2.4.1)
-    brakeman (4.10.0)
+    brakeman (4.10.1)
     concurrent-ruby (1.1.7)
     diff-lcs (1.4.4)
     i18n (1.8.5)
