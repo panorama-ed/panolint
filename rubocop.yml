@@ -160,10 +160,10 @@ Style/TrailingCommaInArguments:
   Enabled: false
 
 Style/TrailingCommaInArrayLiteral:
-  Enabled: false
+  EnforcedStyleForMultiline: comma
 
 Style/TrailingCommaInHashLiteral:
-  Enabled: false
+  EnforcedStyleForMultiline: comma
 
 RSpec/HookArgument:
   EnforcedStyle: each
