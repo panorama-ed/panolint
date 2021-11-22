@@ -3,7 +3,7 @@
 # You can use this in your project's .rubocop.yml with the following at the top:
 #
 #     inherit_gem:
-#       panolint: rubocop.yml
+#       panolint: panolint-rubocop.yml
 #
 # This allows you to selectively override settings in projects, for example, if
 # you're working on a Sinatra project, disabling the Rails cops is probably
