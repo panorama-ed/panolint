@@ -13,6 +13,7 @@ Gem::Specification.new do |spec|
   spec.summary       = "Rules for linting code at Panorama Education"
   spec.homepage      = "https://github.com/panorama-ed/panolint"
   spec.license       = "MIT"
+  spec.metadata      = { "rubygems_mfa_required" => "true" }
 
   spec.files         = Dir.chdir(File.expand_path(__dir__)) do
     `git ls-files -z`.split("\x0").reject do |f|

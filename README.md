@@ -37,7 +37,7 @@ You can use `panolint`'s rubocop configuration in your project with the followin
 
 ```
 inherit_gem:
-  panolint: rubocop.yml
+  panolint: panolint-rubocop.yml
 ```
 
 Note that it for this gem in particular in needs to not be a `.rubocop.yml` file because of rubocop's [path relativity](https://github.com/rubocop-hq/rubocop/blob/master/manual/configuration.md#path-relativity).
