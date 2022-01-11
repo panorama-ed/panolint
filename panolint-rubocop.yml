@@ -80,6 +80,9 @@ Naming/FileName:
   Exclude:
     - .overcommit/Gemfile
 
+Naming/InclusiveLanguage:
+  Enabled: true
+
 RSpec/ExpectChange:
   Enabled: false
 
