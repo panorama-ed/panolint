@@ -2,6 +2,6 @@
 
 RSpec.describe Panolint do
   it "has a version number" do
-    expect(Panolint::VERSION).not_to be nil
+    expect(Panolint::VERSION).not_to be_nil
   end
 end
