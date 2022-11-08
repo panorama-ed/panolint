@@ -4,20 +4,21 @@ jobs:
   ci:
     name: CI
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        # This should contain the Ruby versions of all projects that use this
+        # gem, so we can be sure the shared config will be valid everywhere.
+        # Due to https://github.com/actions/runner/issues/849, we have to use
+        # quotes for '3.0' -- without quotes, CI sees '3' and runs the latest.
+        ruby: [2.7, '3.0', 3.1]
     env:
       CI: true
     steps:
     - uses: actions/checkout@master
     - uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 2.7
-    - uses: actions/cache@v1
-      with:
-        path: vendor/bundle
-        key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-        restore-keys: |
-          ${{ runner.os }}-gems-
-    - run: bundle config path vendor/bundle
-    - run: bundle install --jobs 4 --retry 3
+        ruby-version: ${{ matrix.ruby }}
+        bundler-cache: true
     - run: bundle exec rubocop --config panolint-rubocop.yml
     - run: bundle exec rspec
