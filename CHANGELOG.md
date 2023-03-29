@@ -4,7 +4,7 @@ Following panolint version 0.1.6, we stopped formally releasing new panolint ver
 
 This file documents notable changes to the project through version 0.1.6. The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [Current]
 
 ## [0.1.6] - 2022-10-19
 
@@ -73,7 +73,7 @@ This file documents notable changes to the project through version 0.1.6. The fo
 
 - Initial release. 🎉
 
-[unreleased]: https://github.com/panorama-ed/panolint/compare/v0.1.3...HEAD
+[current]: https://github.com/panorama-ed/panolint/compare/v0.1.6...HEAD
 [0.1.6]: https://github.com/panorama-ed/panolint/compare/v0.1.5...v0.1.6
 [0.1.5]: https://github.com/panorama-ed/panolint/compare/v0.1.4...v0.1.5
 [0.1.4]: https://github.com/panorama-ed/panolint/compare/v0.1.3...v0.1.4

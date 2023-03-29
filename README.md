@@ -5,6 +5,8 @@
 
 A small gem containing rules for linting code at Panorama Education.
 
+Please note that the last numbered version is `0.1.6`. All future changes will simply be added to the main branch of this repository. To use the latest version of this gem, please bundle directly from the github source following the installation instructions in this README.
+
 ## Installation
 
 Add this line to your application's Gemfile:
