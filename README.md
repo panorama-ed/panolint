@@ -5,21 +5,19 @@
 
 A small gem containing rules for linting code at Panorama Education.
 
+Please note that the last numbered version is `0.1.6`. All future changes will simply be added to the main branch of this repository. To use the latest version of this gem, please bundle directly from the github source following the installation instructions in this README.
+
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'panolint'
+gem "panolint", git: "https://github.com/panorama-ed/panolint.git", branch: "main"
 ```
 
 And then execute:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install panolint
 
 ## Usage
 
@@ -46,7 +44,7 @@ Note that it for this gem in particular in needs to not be a `.rubocop.yml` file
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+To install this gem onto your local machine, run `bundle exec rake install`.
 
 ## Contributing
 
