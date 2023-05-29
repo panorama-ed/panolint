@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     panolint (0.1.7)
-      brakeman (>= 4.8, < 6.0)
+      brakeman (>= 4.8, < 7.0)
       rubocop (>= 0.83, < 2.0)
       rubocop-performance (~> 1.5)
       rubocop-rails (~> 2.5)
@@ -18,7 +18,7 @@ GEM
       minitest (>= 5.1)
       tzinfo (~> 2.0)
     ast (2.4.2)
-    brakeman (5.4.1)
+    brakeman (6.0.0)
     concurrent-ruby (1.1.10)
     diff-lcs (1.5.0)
     i18n (1.12.0)
